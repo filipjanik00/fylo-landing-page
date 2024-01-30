@@ -16,13 +16,12 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ### Screenshots
 
 ![](./screenshots/desktop-preview.png)
-![](./screenshots/tablet-preview.png)
 ![](./screenshots/mobile-preview.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-4thGx7DsIJ)
-- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/stats-preview-card-component-main/)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/fylo-landing-page-using-tailwind-css-uxJJIkmbtw)
+- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/fylo-landing-page/)
 
 ## My process
 
