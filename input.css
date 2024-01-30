@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#productive {
+  background-image: url("../images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+:root {
+  --clr-100: hsl(243, 87%, 12%);
+  --clr-200: hsl(238, 22%, 44%);
+  --clr-300: hsl(224, 93%, 58%);
+  --clr-300-hover: hsl(224, 99%, 67%);
+  --clr-400: hsl(170, 45%, 43%);
+  --clr-400-hover: hsl(170, 59%, 57%);
+  --clr-500: hsl(240, 75%, 98%);
+  --clr-600: hsl(0, 0%, 75%);
+}

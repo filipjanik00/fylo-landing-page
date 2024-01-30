@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Gogle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="font-main">
+    <!-- Navbar -->
+    <nav class="font-secondary">
+      <!-- Flex Container -->
+      <div
+        class="container mx-auto flex justify-between items-center p-6 md:pt-16 xl:px-20"
+      >
+        <!-- Navbar Logo -->
+        <div>
+          <img src="./images/logo.svg" alt="Fylo Logo" class="w-24 md:w-44" />
+        </div>
+        <!-- Navbar Menu -->
+        <div class="text-darkBlue flex gap-4 md:gap-8 lg:gap-12 lg:text-lg">
+          <a
+            href="#"
+            class="border-b-[2px] border-solid border-transparent hover:border-brightBlue transition"
+            >Features</a
+          >
+          <a
+            href="#"
+            class="border-b-[2px] border-solid border-transparent hover:border-brightBlue transition"
+            >Team</a
+          >
+          <a
+            href="#"
+            class="border-b-[2px] border-solid border-transparent hover:border-brightBlue transition"
+            >Sign In</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="mt-16">
+      <!-- Flex Containr -->
+      <div
+        class="container p-6 mx-auto flex flex-col-reverse md:flex-row md:items-center xl:px-20 lg:gap-16"
+      >
+        <!-- Hero Content -->
+        <div class="text-center text-darkBlue lg:w-1/2 md:text-left">
+          <h1
+            class="text-2xl font-secondary my-6 font-bold md:my-0 md:mb-6 xl:text-4xl xl:leading-normal xl:max-w-xl"
+          >
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="lg:text-lg lg:max-w-xl">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <div
+            class="mt-8 flex flex-col mx-auto gap-4 items-center lg:flex-row"
+          >
+            <input
+              class="focus:outline-none shadow-md rounded-[4px] w-full py-3 px-6 border-[1px] border-solid border-desaturedBlue lg:w-3/5"
+              type="email"
+              placeholder="Enter your email..."
+            />
+
+            <a
+              href="#"
+              class="py-3 px-6 bg-brightBlue shadow-lg rounded-[4px] w-full text-lightGrayishBlue font-bold font-secondary md:text-center lg:w-2/5 xl:text-center hover:bg-brighterBlue transition"
+            >
+              Get Started
+            </a>
+            <small></small>
+          </div>
+        </div>
+        <!-- Hero Image -->
+        <div class="lg:w-1/2">
+          <img src="./images/illustration-1.svg" alt="Hero Files Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Productive Section -->
+    <section id="productive" class="mt-16">
+      <!-- Section Images -->
+
+      <!-- Flex Container -->
+      <div
+        class="container p-6 mx-auto flex flex-col-reverse py-24 md:flex-row md:items-center md:gap-6 lg:gap-16 xl:px-20 xl:py-24"
+      >
+        <!-- Left Content -->
+        <div class="mt-20 text-darkBlue xl:w-1/2">
+          <h2
+            class="font-secondary text-lg text-center font-bold md:text-left md:text-xl lg:text-2xl xl:text-4xl"
+          >
+            Stay productive, wherever you are
+          </h2>
+          <p class="mt-6 lg:text-lg xl:max-w-lg xl:mt-10">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="mt-4 lg:text-lg xl:max-w-lg">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <div class="my-8 flex justify-center md:justify-start">
+            <div
+              class="flex gap-3 items-center border-b-2 border-solid border-cyan"
+            >
+              <a
+                href="#"
+                class="inline-block text-cyan mb-1 cursor-pointer hover:text-lightCyan"
+                >See how Fylo works</a
+              >
+              <img src="./images/icon-arrow.svg" class="w-5" />
+            </div>
+          </div>
+          <!-- Content Box -->
+          <div
+            class="bg-white text-darkBlue p-8 mx-auto rounded-md shadow-lg flex flex-col justify-center gap-4 lg:w-[400px] lg:float-left"
+          >
+            <img src="./images/icon-quotes.svg" class="w-4" />
+            <p class="text-sm sm:text-base">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="flex items-center gap-4">
+              <img
+                src="./images/avatar-testimonial.jpg"
+                class="w-9 rounded-full object-cover"
+              />
+              <h3 class="font-bold text-sm">
+                Kyle Burton <br />
+                <span class="font-normal text-xs"
+                  >Founder &amp; CEO, Huddle
+                </span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Image Content -->
+        <div class="xl:w-1/2">
+          <img src="./images/illustration-2.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Early Access Section -->
+    <section id="get-early" class="py-10 bg-desaturedBlue">
+      <!-- Flex Container -->
+      <div
+        class="container p-6 mx-auto flex flex-col items-center md:flex-row md:justify-between lg:gap-16 xl:px-20 xl:py-14"
+      >
+        <!-- Text Content -->
+        <div class="text-lightGrayishBlue text-center md:text-left md:w-1/2">
+          <h3 class="font-secondary font-bold text-xl lg:text-4xl">
+            Get early access today
+          </h3>
+          <p class="my-6 md:max-w-md lg:max-w-xl lg:text-lg">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <!-- Input and Button -->
+        <div class="flex flex-col gap-4 items-center md:w-1/2 lg:pl-24">
+          <input
+            class="focus:outline-none shadow-md rounded-[4px] w-full py-3 px-6 border-[1px] border-solid border-desaturedBlue"
+            type="email"
+            placeholder="Enter your email..."
+          />
+          <a
+            href="#"
+            class="py-3 w-full px-6 text-center bg-brightBlue shadow-lg rounded-[4px] text-lightGrayishBlue font-bold font-secondary md:text-center hover:bg-brighterBlue transition xl:w-1/2 lg:self-start"
+          >
+            Get Started For Free
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="py-20 bg-darkBlue">
+      <!-- Flex Container -->
+      <div
+        class="container text-lg p-6 flex flex-col mx-auto text-lightGrayishBlue md:text-center lg:flex-row lg:justify-between xl:px-20"
+      >
+        <!-- Column 1 -->
+        <div class="flex flex-col md:items-center lg:items-start">
+          <img src="./images/logo-white-footer.svg" class="w-32 lg:w-48" />
+          <div class="mt-6 flex items-center gap-4">
+            <img src="./images/icon-phone.svg" />
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="flex items-center gap-3 mt-2">
+            <img src="./images/icon-email.svg" />
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <!-- Column 2 -->
+        <div
+          class="mt-10 flex flex-col gap-2 lg:items-start lg:mt-24 cursor-pointer"
+        >
+          <a href="#" class="hover:text-brightBlue transition">About Us</a>
+          <a href="#" class="hover:text-brightBlue transition">Jobs</a>
+          <a href="#" class="hover:text-brightBlue transition">Press</a>
+          <a href="#" class="hover:text-brightBlue transition">Blog</a>
+        </div>
+        <!-- Column 3 -->
+        <div
+          class="mt-6 flex flex-col gap-2 lg:items-start lg:justify-start lg:mt-24 cursor-pointer"
+        >
+          <a href="#" class="hover:text-brightBlue transition">Contact Us</a>
+          <a href="#" class="hover:text-brightBlue transition">Terms</a>
+          <a href="#" class="hover:text-brightBlue transition">Privacy</a>
+        </div>
+        <!-- Column 4 -->
+        <div
+          class="mt-8 flex justify-center items-center gap-3 lg:items-start lg:mt-24 cursor-pointer"
+        >
+          <a href="#" class="">
+            <i
+              class="fa-brands fa-facebook-f w-10 h-10 flex justify-center items-center border-2 border-solid border-lightGrayishBlue rounded-full hover:text-brightBlue hover:border-brightBlue transition"
+            ></i>
+          </a>
+          <a href="#" class=""
+            ><i
+              class="fa-brands fa-twitter w-10 h-10 flex justify-center items-center border-2 border-solid border-lightGrayishBlue rounded-full hover:text-brightBlue hover:border-brightBlue transition"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram w-10 h-10 flex justify-center items-center border-2 border-solid border-lightGrayishBlue rounded-full hover:text-brightBlue hover:border-brightBlue transition"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
